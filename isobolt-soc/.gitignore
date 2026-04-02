@@ -1,0 +1,6 @@
+node_modules/
+frontend/dist/
+simulators/anomaly_engine
+simulators/oran_transport_sim
+*.tar.gz
+.DS_Store
