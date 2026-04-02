@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: isobolt-soc
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: NODE_ENV
+        value: production
